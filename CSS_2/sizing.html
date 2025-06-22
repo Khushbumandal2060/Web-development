@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
@@ -14,11 +15,10 @@
             font-size: 12px;
         }
 
-        .box{
-            box-sizing: border-box;
+        .box {
             border: 2px solid black;
+            /*  width: 2048px;  */
             width: 80vw;
-            height: 10vh;
             margin: auto;
             background-color: aquamarine;
         }
@@ -29,24 +29,43 @@
             width: 80vw;
             height: 80vh;
             margin: 23px auto;
-            font-size: 1em;
+            font-size: 16px;
             background-color: aquamarine;
         }
 
         .container p{
-             font-size: 2em;
+            font-size: 1em;
+            width: 50%;
         }
 
-        
+        .mycont{
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            color: rgb(red, green, blue);
+            font-size: 22px;
+            width: 80vw;
+        }
     </style>
 </head>
+
 <body>
     <div class="box">
         This is a box
     </div>
 
-    <div class="box">
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dicta harum fugit minima saepe praesentium accusantium incidunt quaerat! Officiis ullam suscipit dolorem ut est voluptates, tempore illum incidunt alias. Culpa!</p>
+    <div class="container">
+        <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quaerat voluptatibus nulla nisi odio corrupti
+        provident. Temporibus possimus animi illum quas est a enim, culpa sit dolorum nam autem illo dicta laborum, ab
+        voluptas. Mollitia, culpa inventore vel praesentium quae consequatur doloribus repellendus tempore vero eius.
+        Velit, asperiores doloribus non adipisci voluptatum consequatur saepe tempore soluta!
+        </p>
+    </div>
+
+    <div class="mycont">
+        I'm another container
     </div>
 </body>
+
 </html>
